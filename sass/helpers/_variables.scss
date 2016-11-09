@@ -1,0 +1,41 @@
+// Graisse des polices
+$font-light: 100;
+$font-regular: 400;
+$font-bold: 600;
+
+// Police de base
+$base-font-family: sans-serif;
+$base-font-weight: $font-regular;
+$base-font-size: 16px !default;
+$base-line-height: 1.4;
+
+// Police
+$fixed-font-family: "Avenir-Book";
+$fixed-font-size: x-pxem(12px);
+$fixed-line-height: $base-line-height;
+
+// Entêtes
+$header-font-weight: $font-bold;
+
+// Couleurs
+// Principale
+$principale-500: rgba(244, 67, 54, 1);
+$principale-100: rgba(255, 205, 210, 1);
+$principale-600: rgba(229, 57, 53, 1);
+$principale-700: rgba(211, 47, 47, 1);
+// Accent
+$accent-200: rgba(238, 255, 65, 1);
+$accent-100: rgba(244, 255, 129, 1);
+$accent-400: rgba(198, 255, 0, 1);
+// Noir
+$noir-ref: rgba(0, 0, 0, 1);
+$noir-base: rgba($noir-ref, 0.87);
+$noir-eclairci-1: rgba($noir-ref, 0.54);
+$noir-eclairci-2: rgba($noir-ref, 0.38);
+$noir-eclairci-3: rgba($noir-ref, 0.12);
+// Blanc
+$blanc-ref: rgba(255, 255, 255, 1);
+$blanc-base: rgba($blanc-ref, 1);
+$blanc-eclairci-1: rgba($blanc-ref, 0.7);
+$blanc-eclairci-2: rgba($blanc-ref, 0.5);
+$blanc-eclairci-3: rgba($blanc-ref, 0.12);

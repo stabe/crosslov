@@ -1,0 +1,21 @@
+// Calcul la taille en "em" en fonction de la taille de police standart
+@function x-pxem($pxval, $context: $base-font-size) {
+  @return ($pxval / $context) * 1em;
+}
+
+// Eclairci une couleur
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+// Assombri une couleur
+@function shade($color, $percentage) {
+  @return mix(black, $color, $percentage);
+}
+
+@function eclaircir($color, $pourcentage){
+  @return lighten($color, $pourcentage);
+}
+@function assombrir($color, $pourcentage){
+  @return darken($color, $pourcentage);
+}

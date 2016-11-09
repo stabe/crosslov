@@ -1,0 +1,140 @@
+/* line 5, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: "Avenir-Book";
+  src: url('/fonts/fonts/avenir-book.eot');
+  src: url('/fonts/fonts/avenir-book.eot?#iefix') format('embedded-opentype'), url('/fonts/fonts/avenir-book.woff') format('woff'), url('/fonts/fonts/avenir-book.ttf') format('truetype'), url('/fonts/fonts/avenir-book.svg') format('svg');
+  font-weight: "normal";
+  font-style: "normal";
+}
+/* line 1, ../sass/pages/_home.scss */
+html {
+  font-family: "Avenir-Book";
+  font-line-height: 1.4;
+  font-size: 0.75em;
+}
+
+/* line 8, ../sass/pages/_home.scss */
+h1 {
+  color: #f44336;
+  font-family: "Avenir-Book";
+  font-size: 2.25em;
+  font-weight: 100;
+  text-align: center;
+}
+
+/* line 17, ../sass/pages/_home.scss */
+p {
+  color: rgba(0, 0, 0, 0.12);
+}
+
+/* line 20, ../sass/pages/_home.scss */
+form {
+  background-color: #f44336;
+}
+/* line 24, ../sass/pages/_home.scss */
+form fieldset {
+  padding: 0.625em 1.5625em;
+}
+/* line 26, ../sass/pages/_home.scss */
+form fieldset input, form fieldset input[type="submit"] {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.5em;
+  margin: 0 auto;
+  width: 100%;
+}
+/* line 61, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+form fieldset input:-moz-placeholder {
+  color: white;
+}
+/* line 64, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+form fieldset input::-moz-placeholder, form fieldset input[type="submit"]::-moz-placeholder {
+  color: white;
+}
+/* line 67, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+form fieldset input:-ms-input-placeholder {
+  color: white;
+}
+/* line 56, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+form fieldset input::-webkit-input-placeholder, form fieldset input[type="submit"]::-webkit-input-placeholder {
+  color: white;
+}
+/* line 38, ../sass/pages/_home.scss */
+form fieldset input[type="submit"] {
+  background-color: #eeff41;
+  color: rgba(0, 0, 0, 0.54);
+}
+/* line 43, ../sass/pages/_home.scss */
+form fieldset input:hover, form fieldset input:focus {
+  border: none;
+}
+/* line 47, ../sass/pages/_home.scss */
+form fieldset label {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.25em;
+}

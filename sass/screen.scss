@@ -1,0 +1,26 @@
+// Reset Compass
+@import "compass/reset";
+
+// Import de compass
+@import "compass";
+
+// Components
+@import "components/buttons";
+@import "components/carousel";
+@import "components/cover";
+
+// Helpers
+@import "helpers/functions";
+@import "helpers/mixins";
+@import "helpers/placeholders";
+@import "helpers/typography";
+@import "helpers/variables";
+
+// Layout
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/header";
+
+// Pages
+@import "pages/contact";
+@import "pages/home";

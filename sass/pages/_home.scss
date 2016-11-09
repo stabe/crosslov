@@ -1,0 +1,54 @@
+html{
+  font: {
+    family: $fixed-font-family;
+    line-height: $fixed-line-height;
+    size: $fixed-font-size;
+  }
+}
+h1{
+  color: $principale-500;
+  font: {
+    family: $fixed-font-family;
+    size: x-pxem(36px);
+    weight:$font-light;
+  }
+  text-align: center;
+}
+p{
+  color: $noir-eclairci-3;
+}
+form{
+  background: {
+    color: $principale-500;
+  }
+  fieldset{
+    padding: x-pxem(10px) x-pxem(25px);
+    input{
+      background: none;
+      border: none;
+      color: $blanc-eclairci-1;
+      font: {
+        size: x-pxem(24px);
+      }
+      @include input-placeholder {
+        color: $blanc-base;
+      }
+      margin: 0 auto;
+      width: 100%;
+      &[type="submit"]{
+        @extend input;
+        background-color: $accent-200;
+        color: $noir-eclairci-1;
+      }
+      &:hover, &:focus{
+        border: none;
+      }
+    }
+    label{
+      color: $blanc-eclairci-1;
+      font: {
+        size: x-pxem(20px);
+      }
+    }
+  }
+}
